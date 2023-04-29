@@ -83,3 +83,6 @@ index.html 파일의 lang 속성을 ko로 바꿔주면 번역 팝업이 나타�
 ex) /images/heropy.png
 
 # 페이지 나누고 연결하기
+https://gracelee5.github.io/html/html/#%EB%A7%81%ED%81%AC-%EC%97%B0%EA%B2%B0
+
+폴더를 만들고 그 안에서 html 파일이름을 index.html 이라 설정하면 경로를 < a href="/폴더이름"> 이렇게 설정할 수 있다.
