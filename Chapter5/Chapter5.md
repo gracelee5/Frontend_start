@@ -64,5 +64,42 @@ ex) span 태그로 특정 글자에만 css 스타일 적용 가능
 * break의 약어로 **줄바꿈**을 할 수 있름
 
 9. < input >
-* 
-  
+* 사용자에게 데이터를 입력받을 때 사용
+* 인라인 요소지만 일부는 블록 요소의 특성을 가진 요소로 인라인-블록 요소라고 불림
+* type 속성에는 사용자에게 입력 받을 데이터의 타입 지정
+* 가로,세로 너비와 위,아래,좌,우 여백 지정 가능
+
+**일반 텍스트 사용 방법**   
+```HTML
+<input type="text"/>
+```
+
+**값을 미리 입력하는 방법**
+사용자에게 입력받을 값을 미리 넣어둠
+```HTML
+<input type="text" vaule-"HEROPY!"/>
+```
+<br<br/>
+
+**사용자에게 입력값의 힌트를 주는 방법**      
+사용자에게 어떤 값을 입력하면 좋을지 힌트
+```HTML
+<input type="text" placeholder="이릅을 입력하세요"/>
+```
+
+**입력 요소를 비활성화하는 방법**
+disabled 속성 추가하면 입력 요소에 값 입력 불가
+```HTML
+<input type="text" disabled />
+```
+
+**체크박스 사용 방법**
+```HTML
+<label>
+  <input type="checkbox"/>Apple
+</label>
+<label>
+  <input type="checkbox"/>Banana
+</label>
+```
+체크 박스 
