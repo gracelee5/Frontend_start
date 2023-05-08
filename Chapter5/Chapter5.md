@@ -205,4 +205,47 @@ td{
 
 
 # 전역 속성
+HTML의 모든 태그에 사용 가능한 속성
+1. title
+설명을 집어넣기를 원하는 태그에 title 속성을 작성하면 된다.
+> < 태그 title="설명">< /태그 >
 
+2. style
+요소에 직접 스타일(CSS)을 적용하게 해주는 속성
+> < 태그 style-"스타일">< /태그>
+
+3. class
+요소에 이름 지정해주는 속성
+> < 태그 class-"이름">< /태그>
+
+왜 요소에 이름을 쓰는가?   
+수많은 글자에 여러 스타일을 적용할 때 구분이 없으면 특정 글자를 찾을 수 없음
+```HTML
+<span class-"blue">동해물</span>과 <span class="red">백두산</span>이 마르고 닳도록 하느님이 보우하사 <span class="red">우리나라 만세</span>
+```
+
+4. id
+요소의 고유한 이름 지정   
+class와 다른 점은 고유하다라는 것 -> 중복 불가
+
+> < 태그 id="이름"></ 태그>
+
+5. data
+요소를 데이터에 저장하는 용도로 사용되는 전역 속성
+> < 태그 data-이름-"데이터"></ 태그>
+
+HTML
+```HTML
+<div data-fruit-name="apple">사과<div>
+<div data-fruit-name="banana">바나나<div>
+  ```
+  
+ JS
+ ```JS
+ const elements = document.querySelectorAll('div')
+ elements.forEach(element=>{
+ console.log(element.dataset.fruitName)
+ })
+ ```
+ Console 탭에서
+ apple과 banana가 출력된 것을 확인할 수 있다.
