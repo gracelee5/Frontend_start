@@ -147,5 +147,62 @@ checked라는 속성 사용하면 체크가 되어있는 상태로 화면에 출
 <br></br>
 
 # 핵심 요소 출력
-<a href:
+* [h1, img, ul, li 출력](https://github.com/gracelee5/Frontend_start/blob/main/Chapter5/chapter5_1.html)
+
+* span, div, br 출력
+우리나라만 빨간색으로 바꾸고 배경은 검정색으로 하기   
+HTML   
+```HTML
+<p>
+  동해물과 백두산이 마르고 닳도록
+  하느님이 보우하사 <span>우리나라</span> 만세>
+</p>
+```
+CSS
+```CSS
+body{
+  font-size: 50px;
+}
+span{
+  color: red;
+  background: black;
+}
+```
+
+* [input 출력](https://github.com/gracelee5/Frontend_start/blob/main/Chapter5/chapter5_2.html)
+
+* table 출력
+HTML
+```HTML
+<table>
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td colspan="2">D</td>
+  </tr>
+</table>
+```
+colspan 입력된 칸이 두개의 열만큼 확장되며 세번째 열과 병합
+
+CSS
+```CSS
+table{
+  
+}
+tr{
+  
+}
+td{
+  border:1px solid red;
+  padding: 10px ;
+}
+```
+선 만들고 각 칸에 여백 추가
+
+
+# 전역 속성
 
