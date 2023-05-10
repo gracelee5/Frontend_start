@@ -184,3 +184,51 @@ content: "뒤!";
 }
 ```
 출력 : Content! 뒤!
+
+5. 속성 선택자
+속성 선택자는 HTML의 속성과 값으로 요소를 선택, **[]** 기호 사용
+
+CSS에 HTML 속성 이름을 []기호 사이에 입력하면 비활성화된 요소 선택됨
+```CSS
+[disabled]{
+  color: red;
+}
+```
+
+CSS에 HTML의 type 속성을 포함한 요소를 선택하려면
+```CSS
+[type]{
+  color: red;
+}
+```
+
+비밀번호 입력 요소를 선택하려면 속성과 값을 한꺼번에 작성
+```CSS
+[type="password"]{
+  color: red;
+}
+```
+
+입력 요소의 값이 HELLO 인 값을 선택하려면 속성과 값을 한꺼번에 작성
+```CSS
+[value="HELLO"]{
+  color: red;
+}
+```
+
+# 스타일 상속
+특정 class 요소의 하위 요소에 CSS 스타일을 상속시킬 수 있다.   
+모든 CSS 속성이 하위 요소에 상속되는 것은 아니고 대부분 글자와 관련된 속성들이 상속 가능하다.
+
+* font-style : 글자 기울기
+* font-weight : 글자 두께
+* font-size : 글자 크기
+* line-height : 줄 높이
+* font-family : 폰트
+* color : 글자 색상
+* text-align : 정렬
+
+**강제 상속**    
+height 강제 상속 예
+[html]()
+[css]()
