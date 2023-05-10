@@ -230,5 +230,26 @@ CSS에 HTML의 type 속성을 포함한 요소를 선택하려면
 
 **강제 상속**    
 height 강제 상속 예
-[html]()
-[css]()
+[html](https://github.com/gracelee5/Frontend_start/blob/main/Chapter6/chapter6.html)
+[css](https://github.com/gracelee5/Frontend_start/blob/main/Chapter6/main.css)
+
+# 우선순위
+```
+<div
+  id="color yellow"
+  class="color_green:
+  style="color:orange;">//인라인 선언
+  Hello world!
+</div>
+```
+
+```
+div {color: red !important;}//!important
+#color_yellow {color: yellow;}//id 선택자
+.color_green {color: green;}//class 선택자
+div {color: blue;} //태그 선택자
+* {color: darkblue;} //전체 선택자
+body {color: violet;} //상속
+```
+우선순위(높은>낮은)
+> !important > 인라인 > id > class > 태그 > 전체 > 상속
