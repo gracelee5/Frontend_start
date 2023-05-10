@@ -1,0 +1,10 @@
+.parent{
+    width:300px;
+    height: 200px;
+    background-color: orange;
+    }
+.child{
+    width:100px;
+    height: inherit;/*강제 상속*/
+    background-color: rebeccapurple;
+}
