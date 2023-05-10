@@ -23,12 +23,12 @@ ex) 신문 기사에 사진 주변에 있는 글자들
 12. 필터
 
 # 너비
-1. width, height
-가로/세로 너비 지정해주는 속성, px나 % 단위 사용   
+1. width, height   
+가로/세로 너비 지정해주는 속성, px나 % 단위 사용     
 기본 값은 자동으로 계산 및 적용
-2. max-width,max-height
-기본값은 none으로 최대 크기에 제한 없음을 나타냄
-3. min-width,min-height
+2. max-width,max-height   
+기본값은 none으로 최대 크기에 제한 없음을 나타냄   
+3. min-width,min-height   
 기본값 0
 
 # 외부 여백
