@@ -153,3 +153,34 @@ n번째 자식 요소 선택
 HTML 구조에 CSS로 가상의 요소를 생성 또는 삽입할 수 있음   
 CSS의 content 속성과 꼭 같이 사용해야 함 
 
+**::before**
+요소의 내부 앞에 가상의 요소를 삽입   
+HTML
+```HTML
+<div class="box">
+  Content!
+</div>
+```
+CSS
+```CSS
+.box::before{
+content: "앞!";
+}
+```
+출력 : 앞! Content!
+
+**::after**
+요소의 내부 뒤에 가상의 요소 삽입   
+HTML
+```HTML
+<div class="box">
+  Content!
+</div>
+```
+CSS
+```CSS
+.box::after{
+content: "뒤!";
+}
+```
+출력 : Content! 뒤!
