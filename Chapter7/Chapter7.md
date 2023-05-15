@@ -99,4 +99,47 @@ overflow 속성은 내용이 요소의 크기 이상으로 넘칠 때, 보여지
 - table, table-row, table cell 등
 
 # 투명도
-opacity 속성으로 요소의 
+opacity 속성으로 요소의 투명도 지정, 기본값은 1이고 불투명함을 의미
+> opacity: 0.4; 40% 불투명
+> opacity: 0; 100%투명함
+
+# 글꼴
+* font-style : 글꼴의 기울기
+normal, italic, oblique
+* font-weight : 글꼴 두께
+normal, bold, bolder, lighter, 100~900
+* font-size : 글꼴 크기
+일반 단위(px,em,rem), %(부모 요소 글꼴 크기의 백분율), smaller,larger(부모 요소보다 작게,크게
+* line-height : 한 줄의 높이
+숫자(요소 글꼴 크기의 배수), 일반 단위, %
+* font-family  글꼴 이름
+
+# 배경
+background-로 시작되는 속성을 이용하여 요소 배경에 색상이나 이미지 추가 가능
+1. background-color
+  요소의 배경 색상 지정
+  
+2. background-image
+  요소에 배경이미지 삽입
+  ```CSS
+  background-image: url("경로");
+  ```
+
+3. background-repeat
+  요소 배경 이미지의 반복   
+  repeat-x : 수평 반복
+  repeat-y : 수직 반복
+  no-repeat : 반복 없음
+  
+4. background-position
+  요소 배경 이미지의 위치 지정   
+  top, bottom, left, right, center의 각 방향을 지정하거나 단위로 정확한 위치 지정
+
+5. background-size
+  요소 배경 이미지의 크기 지정
+  
+6. background-attachment
+  요소 배경 이미지의 스크롤 특성 지정 (scroll, fixed, local(요소 내 스크롤 시 이미지가 같이 스크롤)
+  
+# 배치
+1.
