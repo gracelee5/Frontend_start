@@ -75,3 +75,28 @@ bow-sizing 속성은 요소가 가진 가로/세로 너비의 계산 기준을 �
 >content-box : 요소의 내용만 너비로 계산
 >border-box : 요소의 내용 + padding + border 모두 너비로 계산
 
+# 넘침 제어
+overflow 속성은 내용이 요소의 크기 이상으로 넘칠 때, 보여지는 것을 제어함   
+넘침 제어의 기본 값은 visible로 넘친 내용을 그대로 보여준다
+* visible : 넘친 내용을 그대로 보여줌
+* hidden : 넘친 내용을 잘라냄
+* scroll : 넘친 내용을 잘라내고 스크롤바 생성
+* auto : 넘친 내용이 있는 경우에만 잘라내고 스크롤바 생성
+
+# 출력 특성
+요소의 화면 출력 특성은 display 속성으로 제어
+* 각 요소에 지정되어 있는 값
+- block : 상자 요소
+- inline : 글자 요소
+- inline-block : 글자+상자 요소
+
+* 따로 지정해서 사용하는 값
+- flex : 1차원 레이아웃
+- grid : 2차원 레이아웃
+- none : 보여짐 특성 없음, 화면에서 사라짐
+
+* 기타
+- table, table-row, table cell 등
+
+# 투명도
+opacity 속성으로 요소의 
