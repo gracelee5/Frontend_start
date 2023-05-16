@@ -36,11 +36,11 @@ ex) 신문 기사에 사진 주변에 있는 글자들
 margin 값은 음수를 가질 수 있다.
 
 margin에서는 1~4개의 값을 순서대로 적어서 요소의 외부 여백을 지정할 수 있다.
-> margin 0; - 모든 방향이 0
-> margin 10px; - 모든 방향이 10px
-> margin 10px 20px; - (수직, 수평) top, bottom = 10px, left, right = 20px
-> margin 10px 20px 30px; - (상, 중, 하) top = 10px, left, right = 20px, bottom = 30px
-> margin 10px 20px 30px 40px; - (시계 방향) top = 10px, right = 20px, bottom = 30px. left = 40px
+> margin 0; - 모든 방향이 0   
+> margin 10px; - 모든 방향이 10px   
+> margin 10px 20px; - (수직, 수평) top, bottom = 10px, left, right = 20px   
+> margin 10px 20px 30px; - (상, 중, 하) top = 10px, left, right = 20px, bottom = 30px   
+> margin 10px 20px 30px 40px; - (시계 방향) top = 10px, right = 20px, bottom = 30px. left = 40px   
 
 # 내부 여백
 요소의 내부 여백은 padding 속성으로 지정   
