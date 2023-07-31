@@ -7,3 +7,4 @@
 [Chapter 5 HTML 핵심 정리](https://github.com/gracelee5/Frontend_start/tree/main/Chapter5/Chapter5.md)   
 [Chapter 6 CSS 개요](https://github.com/gracelee5/Frontend_start/blob/main/Chapter6/Chapter6.md)   
 [Chapter 7 CSS 속성](https://github.com/gracelee5/Frontend_start/blob/main/Chapter7/Chapter7.md)
+[Chapter 8 JS 개요 및 정리](https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/Chapter8.md)
