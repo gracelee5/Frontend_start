@@ -113,14 +113,17 @@
 JS에서 HTML을 제어할 수 있는 명령들   
 1. 실습 1
    <script> 작성 위치에 따라 동작 여부가 결정    
+   
 ```HTML
 <script src="./main.js"></script>
-```를 body에 넣음 [1](https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B51/index1.html)      
+```
+를 body에 넣음 [1](https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B51/index1.html)      
 or    
 <script>위치를 이동시키지 않고 defer 속성 추가
 ```HTML
 <script defer src="./main.js"></script>
-```[2]https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B51/index2.html
+```
+[2]https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B51/index2.html
 
 
 2. 실습2
