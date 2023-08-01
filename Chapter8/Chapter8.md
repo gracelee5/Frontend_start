@@ -85,3 +85,49 @@
 1. if 조건문    
    참과 같은 값이면 코드 블록 실행
    ```
+   const isShow = true;
+   const checked = false;
+
+   if (isShow){
+    console.log('Show!');//Show!
+   }
+
+   if (checked){
+    console.log('Checked!');
+   }
+   ```
+
+2. if else 조건문    
+   조건에 따라 실행할 코드 블록 나눔
+   ```
+   const isShow = true;
+
+   if (isShow){
+    console.log('Show!');//Show!
+   }else{
+    console.log('Hide?');
+   }
+   ```
+
+# DOM API
+JS에서 HTML을 제어할 수 있는 명령들   
+1. 실습 1
+   <script> 작성 위치에 따라 동작 여부가 결정    
+```HTML
+<script src="./main.js"></script>
+```를 body에 넣음 [1](https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B51/index1.html)      
+or    
+<script>위치를 이동시키지 않고 defer 속성 추가
+```HTML
+<script defer src="./main.js"></script>
+```[2]https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B51/index2.html
+
+
+2. 실습2
+JS로 요소를 클릭했을 때 동작하는 코드
+HTML 코드는 같음
+[JS](https://github.com/gracelee5/Frontend_start/blob/main/Chapter8/%EC%8B%A4%EC%8A%B52/main.js)
+
+3. 실습3
+JS에서 HTML class 속성 제어      
+**classList** 속성 사용
